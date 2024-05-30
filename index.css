@@ -6,52 +6,55 @@ body{
     display: flex;
     justify-content: center;
 }
-.container-1{
+.card-container{
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 80%;
-    border-radius: 7px;
+    width: 91%;
+    border-radius: 15px;
     overflow: hidden;
 }
-h1{
+h2{
     color: hsl(0, 0%, 95%);
+    font-size: 40px;
     font-family: "Big Shoulders Display";
     font-weight: 700;
 }
-p{
+article{
   color: hsla(0, 0%, 100%, 0.75);  
+  line-height: 150%;
 }
-.card{
-    /* color: white; */
+.car-card{
     padding: 45px 50px;
     font-family: "Lexend Deca";
     font-weight: 400;
     height: auto;
 }
-#card-1{
+#sedan-card{
     background-color: hsl(31, 77%, 52%);
 }
-#card-2{
+#suv-card{
     background-color: hsl(184, 100%, 22%);
 }
-#card-3{
+#luxury-card{
     background-color: hsl(179, 100%, 13%);
 }
-.button{
+.card-button{
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
     width: 120px;
     border: 2px hsl(0, 0%, 95%) solid;;
     border-radius: 20px;
     background-color: hsl(0, 0%, 95%);
 }
-#btn-1{
+#sedan-button{
     color: hsl(31, 77%, 52%);
+    font-weight: 700;
 }
-#btn-2{
-    color: hsl(184, 100%, 22%);;
+#suv-button{
+    color: hsl(184, 100%, 22%);
+    font-weight: 700;
 }
-#btn-3{
+#luxury-button{
     color: hsl(179, 100%, 13%);
+    font-weight: 700;
 }
